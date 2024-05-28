@@ -1,0 +1,8 @@
+@startuml
+annotation java.lang.SuppressWarnings
+class javax.swing.JFrame
+class projeto.jogovelha.Jogo
+class projeto.jogovelha.JogoVelha
+projeto.jogovelha.Jogo ..> java.lang.SuppressWarnings
+projeto.jogovelha.Jogo --|> javax.swing.JFrame
+@enduml
